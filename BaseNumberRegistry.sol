@@ -20,3 +20,7 @@ contract BaseNumberRegistry {
         return number[user];
     }
 }
+ function getNumber(address user) external view returns (uint256) {
+        return number[user];
+    }
+}
